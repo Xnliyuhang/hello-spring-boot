@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alex.hello.spring.boot.mapper.TbUserMapper">
+  <resultMap id="BaseResultMap" type="com.alex.hello.spring.boot.domain.TbUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="uid" jdbcType="BIGINT" property="uid" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="created" jdbcType="TIMESTAMP" property="created" />
+    <result column="updated" jdbcType="TIMESTAMP" property="updated" />
+    <result column="img_src" jdbcType="VARCHAR" property="imgSrc" />
+    <result column="school" jdbcType="VARCHAR" property="school" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="specialty" jdbcType="VARCHAR" property="specialty" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="marital_status" jdbcType="VARCHAR" property="maritalStatus" />
+    <result column="identitys" jdbcType="VARCHAR" property="identitys" />
+    <result column="current_state" jdbcType="INTEGER" property="currentState" />
+    <result column="depart_id" jdbcType="INTEGER" property="departId" />
+    <result column="role_id" jdbcType="INTEGER" property="roleId" />
+  </resultMap>
+</mapper>
